@@ -1,0 +1,56 @@
+body{
+    font-family: 'Outfit';
+}
+a{
+    text-decoration: none;
+}
+.blur_line{
+    background: rgba(215, 29, 97, 0.6);
+    filter: blur(200px);
+    width: 450px;
+    height: 392.38px;
+}
+.romb{
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(180deg, #9A6BFF 0%, #BC9DFF 100%);
+    transform: rotate(-45deg);
+}
+/*NAVBAR*/
+.yak{
+    background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+    width: 44px !important;
+    height: 44px !important;
+    text-align: center;
+
+}
+.yak1{
+    transform: rotate(45deg);
+    display: inline-block;
+}
+.nav-link{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: #FFFFFF;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #b0b0b9 !important;
+    opacity: 1; /* Firefox */
+  }
+
+/*HEADER*/
+.main_header{
+    background-color: #110e0e;
+}
+.icon{
+    background-color: red !important;
+}
+.position{
+    z-index: 100;
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
